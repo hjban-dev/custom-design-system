@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import '@custom-design-system/themes/themes.css'
+import '@custom-design-system/themes/themes.css';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
