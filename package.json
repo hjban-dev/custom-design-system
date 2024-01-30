@@ -1,7 +1,18 @@
 {
   "name": "design-system",
   "version": "0.0.0",
+  "workspaces": {
+    "packages": [
+      "packages/**/*",
+      "services/**/*"
+    ]
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "nx build",
+    "graph": "nx run-many --target=build --graph"
+  },
+  "packageManager": "yarn@4.0.2",
+  "devDependencies": {
+    "nx": "^17.3.0"
   }
 }
