@@ -35,6 +35,10 @@
         "hash": "1797353270377212724"
       },
       {
+        "file": ".nvmrc",
+        "hash": "18366410831190546112"
+      },
+      {
         "file": ".prettierrc",
         "hash": "3796002268192552722"
       },
@@ -136,7 +140,7 @@
       },
       {
         "file": "yarn.lock",
-        "hash": "17366098835540412641"
+        "hash": "3850126121418765538"
       }
     ],
     "projectFileMap": {
@@ -218,6 +222,37 @@
         {
           "file": "packages/esbuild-config/package.json",
           "hash": "7403652434105529510"
+        }
+      ],
+      "@custom-design-system/react-components-layout": [
+        {
+          "file": "packages/react/components/layout/build.js",
+          "hash": "16089850554930886429"
+        },
+        {
+          "file": "packages/react/components/layout/package.json",
+          "hash": "10413232176705724543",
+          "deps": [
+            "@custom-design-system/esbuild-config",
+            "@custom-design-system/themes",
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "packages/react/components/layout/src/Block.tsx",
+          "hash": "7264759125310184961"
+        },
+        {
+          "file": "packages/react/components/layout/src/block.css.ts",
+          "hash": "14317185066632356534"
+        },
+        {
+          "file": "packages/react/components/layout/src/index.ts",
+          "hash": "12541406279628729372"
+        },
+        {
+          "file": "packages/react/components/layout/tsconfig.json",
+          "hash": "9129874831085128207"
         }
       ]
     }

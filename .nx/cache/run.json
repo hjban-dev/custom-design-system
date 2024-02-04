@@ -1,8 +1,8 @@
 {
   "run": {
-    "command": "nx build @custom-design-system/themes",
-    "startTime": "2024-02-04T02:08:20.790Z",
-    "endTime": "2024-02-04T02:08:27.821Z",
+    "command": "nx build @custom-design-system/react-components-layout",
+    "startTime": "2024-02-04T02:34:32.546Z",
+    "endTime": "2024-02-04T02:34:45.188Z",
     "inner": false
   },
   "tasks": [
@@ -10,9 +10,9 @@
       "taskId": "@custom-design-system/esbuild-config:build",
       "target": "build",
       "projectName": "@custom-design-system/esbuild-config",
-      "hash": "9611931925384707580",
-      "startTime": "2024-02-04T02:08:20.797Z",
-      "endTime": "2024-02-04T02:08:22.171Z",
+      "hash": "8304316650493187747",
+      "startTime": "2024-02-04T02:34:32.553Z",
+      "endTime": "2024-02-04T02:34:33.997Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 0
@@ -21,9 +21,20 @@
       "taskId": "@custom-design-system/themes:build",
       "target": "build",
       "projectName": "@custom-design-system/themes",
-      "hash": "14106357273318289892",
-      "startTime": "2024-02-04T02:08:22.173Z",
-      "endTime": "2024-02-04T02:08:27.821Z",
+      "hash": "7252989683401204197",
+      "startTime": "2024-02-04T02:34:33.999Z",
+      "endTime": "2024-02-04T02:34:39.686Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@custom-design-system/react-components-layout:build",
+      "target": "build",
+      "projectName": "@custom-design-system/react-components-layout",
+      "hash": "8243030823316735874",
+      "startTime": "2024-02-04T02:34:39.687Z",
+      "endTime": "2024-02-04T02:34:45.188Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 0
