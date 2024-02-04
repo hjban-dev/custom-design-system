@@ -27,135 +27,159 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".vscode/extensions.json",
-        "hash": "10535867006991962306"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "1797353270377212724"
-      },
-      {
-        "file": "yarn.lock",
-        "hash": "6360079276804116556"
-      },
-      {
-        "file": "package.json",
-        "hash": "16351842137228702309"
-      },
-      {
         "file": "tsconfig.base.json",
         "hash": "11786379465881472560"
-      },
-      {
-        "file": ".yarnrc.yml",
-        "hash": "13229478647683300518"
-      },
-      {
-        "file": ".yarn/sdks/eslint/package.json",
-        "hash": "18236824436391416004"
-      },
-      {
-        "file": ".yarn/sdks/prettier/index.cjs",
-        "hash": "14009293990004610656"
-      },
-      {
-        "file": ".yarn/sdks/prettier/bin/prettier.cjs",
-        "hash": "8855614953399738736"
-      },
-      {
-        "file": ".yarn/sdks/typescript/lib/typescript.js",
-        "hash": "11646577489253808815"
-      },
-      {
-        "file": ".yarn/sdks/eslint/bin/eslint.js",
-        "hash": "457324197634674399"
-      },
-      {
-        "file": ".yarn/sdks/integrations.yml",
-        "hash": "5703335058684100671"
-      },
-      {
-        "file": "nx.json",
-        "hash": "16218620936837000316"
-      },
-      {
-        "file": ".yarn/sdks/prettier/package.json",
-        "hash": "17851070239096871562"
-      },
-      {
-        "file": ".yarn/sdks/typescript/package.json",
-        "hash": "2122891411943405775"
-      },
-      {
-        "file": ".yarn/sdks/typescript/bin/tsserver",
-        "hash": "15690408123434230734"
-      },
-      {
-        "file": ".yarn/sdks/typescript/bin/tsc",
-        "hash": "10666650432257705452"
-      },
-      {
-        "file": ".yarn/sdks/typescript/lib/tsserverlibrary.js",
-        "hash": "18097361510822175431"
-      },
-      {
-        "file": ".yarn/sdks/eslint/lib/api.js",
-        "hash": "9218057077919128729"
-      },
-      {
-        "file": ".nvmrc",
-        "hash": "18366410831190546112"
       },
       {
         "file": ".yarn/sdks/typescript/lib/tsserver.js",
         "hash": "5132865039172914386"
       },
       {
-        "file": "tsconfig.eslint.json",
-        "hash": "1169291880152018748"
-      },
-      {
-        "file": "README.md",
-        "hash": "11837371015662626601"
-      },
-      {
-        "file": ".eslintrc.js",
-        "hash": "7307395377797753530"
-      },
-      {
-        "file": ".vscode/settings.json",
-        "hash": "5192163659098944044"
+        "file": ".yarnrc.yml",
+        "hash": "13229478647683300518"
       },
       {
         "file": ".yarn/sdks/typescript/lib/tsc.js",
         "hash": "4914677750769979712"
       },
       {
-        "file": ".yarn/sdks/eslint/lib/unsupported-api.js",
-        "hash": "4314044071561164915"
+        "file": ".yarn/sdks/typescript/bin/tsserver",
+        "hash": "15690408123434230734"
+      },
+      {
+        "file": ".yarn/sdks/typescript/lib/typescript.js",
+        "hash": "11646577489253808815"
+      },
+      {
+        "file": ".yarn/sdks/typescript/lib/tsserverlibrary.js",
+        "hash": "18097361510822175431"
+      },
+      {
+        "file": "nx.json",
+        "hash": "16218620936837000316"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "5192163659098944044"
+      },
+      {
+        "file": ".yarn/sdks/eslint/bin/eslint.js",
+        "hash": "457324197634674399"
+      },
+      {
+        "file": ".yarn/sdks/eslint/lib/api.js",
+        "hash": "9218057077919128729"
+      },
+      {
+        "file": "README.md",
+        "hash": "11837371015662626601"
+      },
+      {
+        "file": ".yarn/releases/yarn-4.0.2.cjs",
+        "hash": "18186858436245718126"
+      },
+      {
+        "file": ".yarn/sdks/prettier/index.cjs",
+        "hash": "14009293990004610656"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "18177014258179012061"
+      },
+      {
+        "file": ".nvmrc",
+        "hash": "18366410831190546112"
       },
       {
         "file": ".prettierrc",
         "hash": "3796002268192552722"
       },
       {
-        "file": ".yarn/releases/yarn-4.0.2.cjs",
-        "hash": "18186858436245718126"
+        "file": ".yarn/sdks/eslint/lib/unsupported-api.js",
+        "hash": "4314044071561164915"
+      },
+      {
+        "file": ".yarn/sdks/eslint/package.json",
+        "hash": "18236824436391416004"
+      },
+      {
+        "file": ".yarn/sdks/integrations.yml",
+        "hash": "5703335058684100671"
+      },
+      {
+        "file": ".yarn/sdks/typescript/package.json",
+        "hash": "2122891411943405775"
+      },
+      {
+        "file": ".yarn/sdks/typescript/bin/tsc",
+        "hash": "10666650432257705452"
+      },
+      {
+        "file": "tsconfig.eslint.json",
+        "hash": "1169291880152018748"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "10535867006991962306"
+      },
+      {
+        "file": ".eslintrc.js",
+        "hash": "7307395377797753530"
+      },
+      {
+        "file": ".yarn/sdks/prettier/package.json",
+        "hash": "17851070239096871562"
+      },
+      {
+        "file": "package.json",
+        "hash": "16351842137228702309"
+      },
+      {
+        "file": ".yarn/sdks/prettier/bin/prettier.cjs",
+        "hash": "8855614953399738736"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "1797353270377212724"
       }
     ],
     "projectFileMap": {
-      "@custom-design-system/esbuild-config": [
+      "@custom-design-system/storybook": [
         {
-          "file": "packages/esbuild-config/README.md",
-          "hash": "6886952344311067916"
+          "file": "services/storybook/.storybook/main.js",
+          "hash": "13017944318474362528"
         },
         {
-          "file": "packages/esbuild-config/index.js",
-          "hash": "17404371993979563223"
+          "file": "services/storybook/.storybook/preview.js",
+          "hash": "16894252139262468094"
         },
         {
-          "file": "packages/esbuild-config/package.json",
-          "hash": "7403652434105529510"
+          "file": "services/storybook/.storybook/style.css",
+          "hash": "16533230545614272589"
+        },
+        {
+          "file": "services/storybook/README.md",
+          "hash": "2624393197388313932"
+        },
+        {
+          "file": "services/storybook/package.json",
+          "hash": "1414862175944037273",
+          "deps": [
+            "@custom-design-system/react-components-layout",
+            "@custom-design-system/themes"
+          ]
+        },
+        {
+          "file": "services/storybook/stories/ReactComponents/Layout/Box.stories.tsx",
+          "hash": "4287008195290094758"
+        },
+        {
+          "file": "services/storybook/stories/ReactComponents/Layout/Heading.stories.tsx",
+          "hash": "4914542486327916381"
+        },
+        {
+          "file": "services/storybook/stories/ReactComponents/Layout/Text.stories.tsx",
+          "hash": "17675397764316291812"
         }
       ],
       "@custom-design-system/themes": [
@@ -231,20 +255,12 @@
         },
         {
           "file": "packages/react/components/layout/package.json",
-          "hash": "8718948552183877373",
+          "hash": "1454395791145744450",
           "deps": [
             "@custom-design-system/esbuild-config",
             "@custom-design-system/themes",
             "npm:typescript"
           ]
-        },
-        {
-          "file": "packages/react/components/layout/src/Block.tsx",
-          "hash": "7264759125310184961"
-        },
-        {
-          "file": "packages/react/components/layout/src/block.css.ts",
-          "hash": "9374811277461649742"
         },
         {
           "file": "packages/react/components/layout/src/core/style.css.ts",
@@ -256,7 +272,7 @@
         },
         {
           "file": "packages/react/components/layout/src/index.ts",
-          "hash": "9927319546124880364"
+          "hash": "2778540738574252929"
         },
         {
           "file": "packages/react/components/layout/src/layout/Box.tsx",
@@ -271,6 +287,26 @@
           "hash": "18294266382961636469"
         },
         {
+          "file": "packages/react/components/layout/src/typography/Heading.tsx",
+          "hash": "4508489204107376200"
+        },
+        {
+          "file": "packages/react/components/layout/src/typography/Text.tsx",
+          "hash": "13817220215401377826"
+        },
+        {
+          "file": "packages/react/components/layout/src/typography/index.ts",
+          "hash": "3996915916813163186"
+        },
+        {
+          "file": "packages/react/components/layout/src/typography/style.css.ts",
+          "hash": "17778286845384257511"
+        },
+        {
+          "file": "packages/react/components/layout/src/typography/types.ts",
+          "hash": "6508654304752227254"
+        },
+        {
           "file": "packages/react/components/layout/src/utils/properties.ts",
           "hash": "5698855879563130366"
         },
@@ -279,38 +315,204 @@
           "hash": "9129874831085128207"
         }
       ],
-      "@custom-design-system/storybook": [
+      "@custom-design-system/esbuild-config": [
         {
-          "file": "services/storybook/.storybook/main.js",
-          "hash": "13017944318474362528"
+          "file": "packages/esbuild-config/README.md",
+          "hash": "6886952344311067916"
         },
         {
-          "file": "services/storybook/.storybook/preview.js",
-          "hash": "16894252139262468094"
+          "file": "packages/esbuild-config/index.js",
+          "hash": "17404371993979563223"
         },
         {
-          "file": "services/storybook/.storybook/style.css",
-          "hash": "16533230545614272589"
+          "file": "packages/esbuild-config/package.json",
+          "hash": "7403652434105529510"
+        }
+      ],
+      "storybook-static": [
+        {
+          "file": "services/storybook/storybook-static/favicon.svg",
+          "hash": "10676544082008852045"
         },
         {
-          "file": "services/storybook/README.md",
-          "hash": "2624393197388313932"
+          "file": "services/storybook/storybook-static/index.html",
+          "hash": "2155163346984204132"
         },
         {
-          "file": "services/storybook/package.json",
-          "hash": "1414862175944037273",
-          "deps": [
-            "@custom-design-system/react-components-layout",
-            "@custom-design-system/themes"
-          ]
+          "file": "services/storybook/storybook-static/index.json",
+          "hash": "13258676734720020736"
         },
         {
-          "file": "services/storybook/stories/ReactComponents/Layout/Block.stories.tsx",
-          "hash": "7774438063294689622"
+          "file": "services/storybook/storybook-static/project.json",
+          "hash": "16097388828893025186"
         },
         {
-          "file": "services/storybook/stories/ReactComponents/Layout/Box.stories.tsx",
-          "hash": "4287008195290094758"
+          "file": "services/storybook/storybook-static/sb-addons/essentials-actions-2/manager-bundle.js",
+          "hash": "16823634765671439346"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/essentials-actions-2/manager-bundle.js.LEGAL.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/essentials-backgrounds-3/manager-bundle.js",
+          "hash": "11631912738347237879"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/essentials-backgrounds-3/manager-bundle.js.LEGAL.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/essentials-controls-1/manager-bundle.js",
+          "hash": "12844871759535465670"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/essentials-controls-1/manager-bundle.js.LEGAL.txt",
+          "hash": "5577429579357858104"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/essentials-measure-6/manager-bundle.js",
+          "hash": "8317014680884651020"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/essentials-measure-6/manager-bundle.js.LEGAL.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/essentials-outline-7/manager-bundle.js",
+          "hash": "3088803866951912100"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/essentials-outline-7/manager-bundle.js.LEGAL.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/essentials-toolbars-5/manager-bundle.js",
+          "hash": "16338654052255709994"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/essentials-toolbars-5/manager-bundle.js.LEGAL.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/essentials-viewport-4/manager-bundle.js",
+          "hash": "17524897932082845721"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/essentials-viewport-4/manager-bundle.js.LEGAL.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/interactions-9/manager-bundle.js",
+          "hash": "3656497269940813475"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/interactions-9/manager-bundle.js.LEGAL.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/links-0/manager-bundle.js",
+          "hash": "7645638359787240841"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/links-0/manager-bundle.js.LEGAL.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/onboarding-8/manager-bundle.js",
+          "hash": "4938346259606314886"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/onboarding-8/manager-bundle.js.LEGAL.txt",
+          "hash": "14525011878292812210"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/root-attributes-10/manager-bundle.js",
+          "hash": "17522211374235367188"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-addons/root-attributes-10/manager-bundle.js.LEGAL.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-common-assets/fonts.css",
+          "hash": "9281641633589321825"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-common-assets/nunito-sans-bold-italic.woff2",
+          "hash": "16937166808963441226"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-common-assets/nunito-sans-bold.woff2",
+          "hash": "14169727957364227"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-common-assets/nunito-sans-italic.woff2",
+          "hash": "13111399484457157170"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-common-assets/nunito-sans-regular.woff2",
+          "hash": "13367830169426244845"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-manager/WithTooltip-V3YHNWJZ-LVYLGZW2.js",
+          "hash": "6542833472777580077"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-manager/chunk-2IXBUOFS.js",
+          "hash": "13289513081113284295"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-manager/chunk-INSKDKQB.js",
+          "hash": "16544270099753738984"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-manager/chunk-NGTUFCUO.js",
+          "hash": "478149069060076673"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-manager/chunk-NMB3SATH.js",
+          "hash": "13617986196674457589"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-manager/chunk-ZEU7PDD3.js",
+          "hash": "9240036239342026411"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-manager/formatter-SWP5E3XI-7BGIK6BL.js",
+          "hash": "10481266386923726462"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-manager/globals-module-info.js",
+          "hash": "18339592826769132165"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-manager/globals.js",
+          "hash": "7508935271521105577"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-manager/index.js",
+          "hash": "12508972239568204523"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-manager/runtime.js",
+          "hash": "14432652097596246347"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-manager/syntaxhighlighter-V7JZZA35-DXZCI2WR.js",
+          "hash": "12004999179954960579"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-preview/globals.js",
+          "hash": "11365604799474032304"
+        },
+        {
+          "file": "services/storybook/storybook-static/sb-preview/runtime.js",
+          "hash": "5720367101370585522"
+        },
+        {
+          "file": "services/storybook/storybook-static/stories.json",
+          "hash": "16416685633142394078"
         }
       ]
     }
