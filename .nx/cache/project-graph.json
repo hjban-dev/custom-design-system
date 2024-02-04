@@ -7,7 +7,7 @@
         "root": "services/storybook/storybook-static",
         "targets": {},
         "name": "storybook-static",
-        "generatedAt": 1707058641282,
+        "generatedAt": 1707060195873,
         "hasCustomBabel": false,
         "hasCustomWebpack": false,
         "hasStaticDirs": false,
