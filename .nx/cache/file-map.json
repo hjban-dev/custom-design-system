@@ -124,11 +124,11 @@
       },
       {
         "file": "nx.json",
-        "hash": "14255371963109930467"
+        "hash": "16218620936837000316"
       },
       {
         "file": "package.json",
-        "hash": "9332347755721248775"
+        "hash": "16351842137228702309"
       },
       {
         "file": "tsconfig.base.json",
@@ -140,10 +140,55 @@
       },
       {
         "file": "yarn.lock",
-        "hash": "3850126121418765538"
+        "hash": "10849803291499070351"
       }
     ],
     "projectFileMap": {
+      "@custom-design-system/react-components-layout": [
+        {
+          "file": "packages/react/components/layout/build.js",
+          "hash": "16089850554930886429"
+        },
+        {
+          "file": "packages/react/components/layout/package.json",
+          "hash": "14773468667532527484",
+          "deps": [
+            "@custom-design-system/esbuild-config",
+            "@custom-design-system/themes",
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "packages/react/components/layout/src/Block.tsx",
+          "hash": "7264759125310184961"
+        },
+        {
+          "file": "packages/react/components/layout/src/block.css.ts",
+          "hash": "9374811277461649742"
+        },
+        {
+          "file": "packages/react/components/layout/src/index.ts",
+          "hash": "12541406279628729372"
+        },
+        {
+          "file": "packages/react/components/layout/tsconfig.json",
+          "hash": "9129874831085128207"
+        }
+      ],
+      "@custom-design-system/esbuild-config": [
+        {
+          "file": "packages/esbuild-config/README.md",
+          "hash": "6886952344311067916"
+        },
+        {
+          "file": "packages/esbuild-config/index.js",
+          "hash": "17404371993979563223"
+        },
+        {
+          "file": "packages/esbuild-config/package.json",
+          "hash": "7403652434105529510"
+        }
+      ],
       "@custom-design-system/themes": [
         {
           "file": "packages/themes/build.js",
@@ -210,49 +255,34 @@
           "hash": "13298943998655870093"
         }
       ],
-      "@custom-design-system/esbuild-config": [
+      "@custom-design-system/storybook": [
         {
-          "file": "packages/esbuild-config/README.md",
-          "hash": "6886952344311067916"
+          "file": "services/storybook/.storybook/main.js",
+          "hash": "13017944318474362528"
         },
         {
-          "file": "packages/esbuild-config/index.js",
-          "hash": "17404371993979563223"
+          "file": "services/storybook/.storybook/preview.js",
+          "hash": "16894252139262468094"
         },
         {
-          "file": "packages/esbuild-config/package.json",
-          "hash": "7403652434105529510"
-        }
-      ],
-      "@custom-design-system/react-components-layout": [
-        {
-          "file": "packages/react/components/layout/build.js",
-          "hash": "16089850554930886429"
+          "file": "services/storybook/.storybook/style.css",
+          "hash": "16533230545614272589"
         },
         {
-          "file": "packages/react/components/layout/package.json",
-          "hash": "10413232176705724543",
+          "file": "services/storybook/README.md",
+          "hash": "2624393197388313932"
+        },
+        {
+          "file": "services/storybook/package.json",
+          "hash": "1414862175944037273",
           "deps": [
-            "@custom-design-system/esbuild-config",
-            "@custom-design-system/themes",
-            "npm:typescript"
+            "@custom-design-system/react-components-layout",
+            "@custom-design-system/themes"
           ]
         },
         {
-          "file": "packages/react/components/layout/src/Block.tsx",
-          "hash": "7264759125310184961"
-        },
-        {
-          "file": "packages/react/components/layout/src/block.css.ts",
-          "hash": "14317185066632356534"
-        },
-        {
-          "file": "packages/react/components/layout/src/index.ts",
-          "hash": "12541406279628729372"
-        },
-        {
-          "file": "packages/react/components/layout/tsconfig.json",
-          "hash": "9129874831085128207"
+          "file": "services/storybook/stories/ReactComponents/Layout/Block.stories.tsx",
+          "hash": "7774438063294689622"
         }
       ]
     }
