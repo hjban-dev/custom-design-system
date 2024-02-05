@@ -1,32 +1,30 @@
 import '@custom-design-system/react-components-layout/style.css';
-import { Flex as _Flex } from '@custom-design-system/react-components-layout';
+import { Grid as _Grid, GridItem } from '@custom-design-system/react-components-layout';
 import React from 'react'
 
 export default {
-  title: 'ReactComponents/Layout/Flex',
-  component: _Flex,
+  title: 'ReactComponents/Layout/Grid',
+  component: _Grid,
   parameters: {
     layout: "centered",
   },
   tags: ["autodocs"],
 };
 
-export const FlexStory = {
+export const GridStory = {
   args: {
     as: "div",
-    padding: '5',
-    background: 'pink',
     baxShadow: 'xl',
     borderRadius: 'md',
-    justify: 'space-between',
+    templateColumns: 'repeat(2, 1fr)',
     style: {
       width: '300px'
     }
   },
   render: (args) => (
-    <_Flex {...args}>
-      <div>Flex</div>
-      <div>입니다</div>
-    </_Flex>
+    <_Grid {...args}>
+      <GridItem>Grid</GridItem>
+      <GridItem>입니다</GridItem>
+    </_Grid>
   )
 };
