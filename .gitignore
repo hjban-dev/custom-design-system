@@ -14,3 +14,11 @@
 
 **/dist/*
 dist
+
+# Local dev files
+.nx
+
+# Storybook build outputs
+.out
+.storybook-out
+storybook-static
