@@ -1541,6 +1541,23 @@ __metadata:
   resolution: "@custom-design-system/react-hooks-button@workspace:packages/react/hooks/button"
   dependencies:
     "@custom-design-system/esbuild-config": "workspace:^"
+    "@custom-design-system/react-hooks-toggle": "workspace:^"
+    "@types/react": "npm:^18.2.52"
+    "@types/react-dom": "npm:^18.2.18"
+    "@vanilla-extract/sprinkles": "npm:^1.6.1"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    typescript: "npm:^5.2.2"
+  peerDependencies:
+    react: "*"
+  languageName: unknown
+  linkType: soft
+
+"@custom-design-system/react-hooks-toggle@workspace:^, @custom-design-system/react-hooks-toggle@workspace:packages/react/hooks/toggle":
+  version: 0.0.0-use.local
+  resolution: "@custom-design-system/react-hooks-toggle@workspace:packages/react/hooks/toggle"
+  dependencies:
+    "@custom-design-system/esbuild-config": "workspace:^"
     "@types/react": "npm:^18.2.52"
     "@types/react-dom": "npm:^18.2.18"
     "@vanilla-extract/sprinkles": "npm:^1.6.1"

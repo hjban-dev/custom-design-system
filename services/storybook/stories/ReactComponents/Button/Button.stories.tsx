@@ -2,7 +2,10 @@ import "@custom-design-system/react-components-button/style.css";
 import { Button as _Button } from "@custom-design-system/react-components-button";
 import { vars } from "@custom-design-system/themes";
 import "@custom-design-system/react-components-layout/style.css";
-import { useButton } from "@custom-design-system/react-hooks-button";
+import {
+  useButton,
+  useToggleButton,
+} from "@custom-design-system/react-hooks-button";
 import { Text } from "@custom-design-system/react-components-layout";
 
 export default {
@@ -61,6 +64,25 @@ export const TextButtonStory = {
       >
         텍스트 버튼입니다.
       </Text>
+    );
+  },
+};
+
+export const ToggleButtonStory = {
+  render: () => {
+    const { buttonProps, isSelected } = useToggleButton(
+      { elementType: "button" },
+      false,
+    );
+
+    return (
+      <_Button
+        {...buttonProps}
+        variant={isSelected ? "solid" : "outline"}
+        color="green"
+      >
+        {isSelected ? "😀" : "😂"}
+      </_Button>
     );
   },
 };
