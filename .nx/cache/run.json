@@ -1,8 +1,8 @@
 {
   "run": {
-    "command": "nx build @custom-design-system/react-components-layout",
-    "startTime": "2024-02-05T12:08:53.237Z",
-    "endTime": "2024-02-05T12:09:09.147Z",
+    "command": "nx build @custom-design-system/themes",
+    "startTime": "2024-02-19T03:15:16.729Z",
+    "endTime": "2024-02-19T03:15:25.396Z",
     "inner": false
   },
   "tasks": [
@@ -10,9 +10,9 @@
       "taskId": "@custom-design-system/esbuild-config:build",
       "target": "build",
       "projectName": "@custom-design-system/esbuild-config",
-      "hash": "2763247715591642295",
-      "startTime": "2024-02-05T12:08:53.245Z",
-      "endTime": "2024-02-05T12:08:54.931Z",
+      "hash": "11252682485996896369",
+      "startTime": "2024-02-19T03:15:16.737Z",
+      "endTime": "2024-02-19T03:15:18.544Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 0
@@ -21,20 +21,9 @@
       "taskId": "@custom-design-system/themes:build",
       "target": "build",
       "projectName": "@custom-design-system/themes",
-      "hash": "14744048194829802580",
-      "startTime": "2024-02-05T12:08:54.933Z",
-      "endTime": "2024-02-05T12:09:01.881Z",
-      "params": "",
-      "cacheStatus": "cache-miss",
-      "status": 0
-    },
-    {
-      "taskId": "@custom-design-system/react-components-layout:build",
-      "target": "build",
-      "projectName": "@custom-design-system/react-components-layout",
-      "hash": "15320236870326186211",
-      "startTime": "2024-02-05T12:09:01.883Z",
-      "endTime": "2024-02-05T12:09:09.147Z",
+      "hash": "867460405435378984",
+      "startTime": "2024-02-19T03:15:18.546Z",
+      "endTime": "2024-02-19T03:15:25.396Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 0

@@ -1,5 +1,5 @@
 import "@custom-design-system/react-components-button/style.css";
-import { Button as _Button } from '@custom-design-system/react-components-button';
+import { Button as _Button } from "@custom-design-system/react-components-button";
 import { vars } from "@custom-design-system/themes";
 
 export default {
@@ -31,5 +31,7 @@ export const ButtonStory = {
     children: "Button",
     variant: "outline",
     isDisabled: false,
+    isLoading: false,
+    leftIcon: "😀",
   },
 };
