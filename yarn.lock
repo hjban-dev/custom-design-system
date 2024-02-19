@@ -1490,6 +1490,30 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@custom-design-system/react-components-accordion@workspace:^, @custom-design-system/react-components-accordion@workspace:packages/react/components/accordion":
+  version: 0.0.0-use.local
+  resolution: "@custom-design-system/react-components-accordion@workspace:packages/react/components/accordion"
+  dependencies:
+    "@custom-design-system/esbuild-config": "workspace:^"
+    "@custom-design-system/react-hooks-button": "workspace:^"
+    "@custom-design-system/themes": "workspace:^"
+    "@types/react": "npm:^18.2.52"
+    "@types/react-dom": "npm:^18.2.18"
+    "@vanilla-extract/css": "npm:^1.14.1"
+    "@vanilla-extract/dynamic": "npm:^2.1.0"
+    "@vanilla-extract/esbuild-plugin": "npm:^2.3.4"
+    "@vanilla-extract/recipes": "npm:^0.5.1"
+    "@vanilla-extract/sprinkles": "npm:^1.6.1"
+    clsx: "npm:^2.1.0"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    typescript: "npm:^5.2.2"
+  peerDependencies:
+    "@custom-design-system/themes": "workspace:^"
+    react: "*"
+  languageName: unknown
+  linkType: soft
+
 "@custom-design-system/react-components-button@workspace:^, @custom-design-system/react-components-button@workspace:packages/react/components/button":
   version: 0.0.0-use.local
   resolution: "@custom-design-system/react-components-button@workspace:packages/react/components/button"
@@ -1573,6 +1597,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@custom-design-system/storybook@workspace:services/storybook"
   dependencies:
+    "@custom-design-system/react-components-accordion": "workspace:^"
     "@custom-design-system/react-components-button": "workspace:^"
     "@custom-design-system/react-components-layout": "workspace:^"
     "@custom-design-system/react-hooks-button": "workspace:^"

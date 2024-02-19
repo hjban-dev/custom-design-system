@@ -1,5 +1,65 @@
 {
   "nodes": {
+    "@custom-design-system/react-components-accordion": {
+      "name": "@custom-design-system/react-components-accordion",
+      "type": "lib",
+      "data": {
+        "root": "packages/react/components/accordion",
+        "targets": {
+          "build": {
+            "dependsOn": [
+              "^build"
+            ],
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build"
+            },
+            "configurations": {}
+          },
+          "build:js": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:js"
+            },
+            "configurations": {}
+          },
+          "build:type": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:type"
+            },
+            "configurations": {}
+          },
+          "clean": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "clean"
+            },
+            "configurations": {}
+          },
+          "dev": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "dev"
+            },
+            "configurations": {}
+          },
+          "nx-release-publish": {
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "executor": "@nx/js:release-publish",
+            "options": {},
+            "configurations": {}
+          }
+        },
+        "sourceRoot": "packages/react/components/accordion",
+        "name": "@custom-design-system/react-components-accordion",
+        "projectType": "library",
+        "implicitDependencies": [],
+        "tags": []
+      }
+    },
     "@custom-design-system/react-components-button": {
       "name": "@custom-design-system/react-components-button",
       "type": "lib",
@@ -11272,6 +11332,28 @@
     }
   },
   "dependencies": {
+    "@custom-design-system/react-components-accordion": [
+      {
+        "source": "@custom-design-system/react-components-accordion",
+        "target": "@custom-design-system/react-hooks-button",
+        "type": "static"
+      },
+      {
+        "source": "@custom-design-system/react-components-accordion",
+        "target": "@custom-design-system/esbuild-config",
+        "type": "static"
+      },
+      {
+        "source": "@custom-design-system/react-components-accordion",
+        "target": "@custom-design-system/themes",
+        "type": "static"
+      },
+      {
+        "source": "@custom-design-system/react-components-accordion",
+        "target": "npm:typescript",
+        "type": "static"
+      }
+    ],
     "@custom-design-system/react-components-button": [
       {
         "source": "@custom-design-system/react-components-button",
@@ -11345,6 +11427,11 @@
       {
         "source": "@custom-design-system/storybook",
         "target": "@custom-design-system/react-hooks-button",
+        "type": "static"
+      },
+      {
+        "source": "@custom-design-system/storybook",
+        "target": "@custom-design-system/react-components-accordion",
         "type": "static"
       },
       {
