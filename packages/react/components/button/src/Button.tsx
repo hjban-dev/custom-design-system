@@ -11,8 +11,10 @@ import {
   spinnerStyle,
 } from "./style.css";
 import { vars } from "@custom-design-system/themes";
+import { useButton } from "@custom-design-system/react-hooks-button";
 
 const Button = (props: ButtonProps, ref: React.Ref<HTMLButtonElement>) => {
+  const { buttonProps } = useButton(props);
   const {
     variant = "solid",
     size = "md",
@@ -20,8 +22,6 @@ const Button = (props: ButtonProps, ref: React.Ref<HTMLButtonElement>) => {
     isLoading,
     leftIcon,
     rightIcon,
-    isDisabled = false,
-    onKeyDown,
     children,
     style,
   } = props;
@@ -36,32 +36,16 @@ const Button = (props: ButtonProps, ref: React.Ref<HTMLButtonElement>) => {
       ? vars.colors.$scale[color][700]
       : vars.colors.$scale[color][100];
 
-  const disabled = isDisabled;
-  const handleKeyDown = (event: React.KeyboardEvent<HTMLButtonElement>) => {
-    onKeyDown?.(event);
-
-    if (event.key === "Enter" || event.key === "13") {
-      event.preventDefault();
-      event.currentTarget.click();
-    }
-  };
-
   return (
     <button
-      {...props}
+      {...buttonProps}
       ref={ref}
-      onKeyDown={handleKeyDown}
-      onClick={() => {
-        console.log("clicked!");
-      }}
-      role="button"
       className={clsx([
         buttonStyle({
           size,
           variant,
         }),
       ])}
-      disabled={disabled}
       style={{
         ...assignInlineVars({
           [enableColorVariant]: endableColor,
@@ -70,7 +54,6 @@ const Button = (props: ButtonProps, ref: React.Ref<HTMLButtonElement>) => {
         }),
         ...style,
       }}
-      data-loading={isLoading}
     >
       {isLoading && <div className={spinnerStyle({ size })} />}
       {leftIcon && <span className={spanStyle({ size })}>{leftIcon}</span>}
