@@ -180,6 +180,66 @@
         "tags": []
       }
     },
+    "@custom-design-system/react-components-input": {
+      "name": "@custom-design-system/react-components-input",
+      "type": "lib",
+      "data": {
+        "root": "packages/react/components/input",
+        "targets": {
+          "build": {
+            "dependsOn": [
+              "^build"
+            ],
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build"
+            },
+            "configurations": {}
+          },
+          "build:js": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:js"
+            },
+            "configurations": {}
+          },
+          "build:type": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:type"
+            },
+            "configurations": {}
+          },
+          "clean": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "clean"
+            },
+            "configurations": {}
+          },
+          "dev": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "dev"
+            },
+            "configurations": {}
+          },
+          "nx-release-publish": {
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "executor": "@nx/js:release-publish",
+            "options": {},
+            "configurations": {}
+          }
+        },
+        "sourceRoot": "packages/react/components/input",
+        "name": "@custom-design-system/react-components-input",
+        "projectType": "library",
+        "implicitDependencies": [],
+        "tags": []
+      }
+    },
     "@custom-design-system/react-hooks-button": {
       "name": "@custom-design-system/react-hooks-button",
       "type": "lib",
@@ -295,6 +355,66 @@
         },
         "sourceRoot": "packages/react/hooks/toggle",
         "name": "@custom-design-system/react-hooks-toggle",
+        "projectType": "library",
+        "implicitDependencies": [],
+        "tags": []
+      }
+    },
+    "@custom-design-system/react-hooks-input": {
+      "name": "@custom-design-system/react-hooks-input",
+      "type": "lib",
+      "data": {
+        "root": "packages/react/hooks/input",
+        "targets": {
+          "build": {
+            "dependsOn": [
+              "^build"
+            ],
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build"
+            },
+            "configurations": {}
+          },
+          "build:js": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:js"
+            },
+            "configurations": {}
+          },
+          "build:type": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:type"
+            },
+            "configurations": {}
+          },
+          "clean": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "clean"
+            },
+            "configurations": {}
+          },
+          "dev": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "dev"
+            },
+            "configurations": {}
+          },
+          "nx-release-publish": {
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "executor": "@nx/js:release-publish",
+            "options": {},
+            "configurations": {}
+          }
+        },
+        "sourceRoot": "packages/react/hooks/input",
+        "name": "@custom-design-system/react-hooks-input",
         "projectType": "library",
         "implicitDependencies": [],
         "tags": []
@@ -11393,6 +11513,28 @@
         "type": "static"
       }
     ],
+    "@custom-design-system/react-components-input": [
+      {
+        "source": "@custom-design-system/react-components-input",
+        "target": "@custom-design-system/react-hooks-input",
+        "type": "static"
+      },
+      {
+        "source": "@custom-design-system/react-components-input",
+        "target": "@custom-design-system/esbuild-config",
+        "type": "static"
+      },
+      {
+        "source": "@custom-design-system/react-components-input",
+        "target": "@custom-design-system/themes",
+        "type": "static"
+      },
+      {
+        "source": "@custom-design-system/react-components-input",
+        "target": "npm:typescript",
+        "type": "static"
+      }
+    ],
     "@custom-design-system/react-hooks-button": [
       {
         "source": "@custom-design-system/react-hooks-button",
@@ -11422,6 +11564,23 @@
         "type": "static"
       }
     ],
+    "@custom-design-system/react-hooks-input": [
+      {
+        "source": "@custom-design-system/react-hooks-input",
+        "target": "@custom-design-system/react-hooks-toggle",
+        "type": "static"
+      },
+      {
+        "source": "@custom-design-system/react-hooks-input",
+        "target": "@custom-design-system/esbuild-config",
+        "type": "static"
+      },
+      {
+        "source": "@custom-design-system/react-hooks-input",
+        "target": "npm:typescript",
+        "type": "static"
+      }
+    ],
     "@custom-design-system/esbuild-config": [],
     "@custom-design-system/storybook": [
       {
@@ -11437,6 +11596,11 @@
       {
         "source": "@custom-design-system/storybook",
         "target": "@custom-design-system/react-components-button",
+        "type": "static"
+      },
+      {
+        "source": "@custom-design-system/storybook",
+        "target": "@custom-design-system/react-components-input",
         "type": "static"
       },
       {
