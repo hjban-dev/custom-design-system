@@ -7,6 +7,7 @@
     "@custom-design-system/react-components-input": "workspace:^",
     "@custom-design-system/react-components-layout": "workspace:^",
     "@custom-design-system/react-components-select": "workspace:^",
+    "@custom-design-system/react-components-toast": "workspace:^",
     "@custom-design-system/themes": "workspace:^",
     "@storybook/addon-essentials": "^7.6.12",
     "@storybook/addon-interactions": "^7.6.12",

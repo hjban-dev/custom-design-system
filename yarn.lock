@@ -1609,6 +1609,30 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@custom-design-system/react-components-toast@workspace:^, @custom-design-system/react-components-toast@workspace:packages/react/components/toast":
+  version: 0.0.0-use.local
+  resolution: "@custom-design-system/react-components-toast@workspace:packages/react/components/toast"
+  dependencies:
+    "@custom-design-system/esbuild-config": "workspace:^"
+    "@custom-design-system/react-hooks-button": "workspace:^"
+    "@custom-design-system/themes": "workspace:^"
+    "@types/react": "npm:^18.2.52"
+    "@types/react-dom": "npm:^18.2.18"
+    "@vanilla-extract/css": "npm:^1.14.1"
+    "@vanilla-extract/dynamic": "npm:^2.1.0"
+    "@vanilla-extract/esbuild-plugin": "npm:^2.3.4"
+    "@vanilla-extract/recipes": "npm:^0.5.1"
+    "@vanilla-extract/sprinkles": "npm:^1.6.1"
+    clsx: "npm:^2.1.0"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    typescript: "npm:^5.2.2"
+  peerDependencies:
+    "@custom-design-system/themes": "workspace:^"
+    react: "*"
+  languageName: unknown
+  linkType: soft
+
 "@custom-design-system/react-hooks-button@workspace:^, @custom-design-system/react-hooks-button@workspace:packages/react/hooks/button":
   version: 0.0.0-use.local
   resolution: "@custom-design-system/react-hooks-button@workspace:packages/react/hooks/button"
@@ -1648,9 +1672,10 @@ __metadata:
   resolution: "@custom-design-system/react-hooks-select@workspace:packages/react/hooks/select"
   dependencies:
     "@custom-design-system/esbuild-config": "workspace:^"
+    "@custom-design-system/react-hooks-toggle": "workspace:^"
     "@types/react": "npm:^18.2.52"
     "@types/react-dom": "npm:^18.2.18"
-    clsx: "npm:^2.0.0"
+    "@vanilla-extract/sprinkles": "npm:^1.6.1"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
     typescript: "npm:^5.2.2"
@@ -1684,6 +1709,7 @@ __metadata:
     "@custom-design-system/react-components-input": "workspace:^"
     "@custom-design-system/react-components-layout": "workspace:^"
     "@custom-design-system/react-components-select": "workspace:^"
+    "@custom-design-system/react-components-toast": "workspace:^"
     "@custom-design-system/react-hooks-button": "workspace:^"
     "@custom-design-system/themes": "workspace:^"
     "@storybook/addon-essentials": "npm:^7.6.12"
@@ -5894,7 +5920,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"clsx@npm:^2.0.0, clsx@npm:^2.1.0":
+"clsx@npm:^2.1.0":
   version: 2.1.0
   resolution: "clsx@npm:2.1.0"
   checksum: c09c00ad14f638366ca814097e6cab533dfa1972a358da5b557be487168acbb25b4c1395e89ffa842a8a61ba87a462d2b4885bc9d4f8410b598f3cb339599cdb
