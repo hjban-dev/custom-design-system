@@ -15,10 +15,12 @@
 **/dist/*
 dist
 
-# Local dev files
-.nx
+# storybook
+**/storybook-static/
 
-# Storybook build outputs
-.out
-.storybook-out
-storybook-static
+# next.js
+**/.next/
+**/out/
+
+# production
+**/build
