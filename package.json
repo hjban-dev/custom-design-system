@@ -8,7 +8,7 @@
     ]
   },
   "scripts": {
-    "build": "nx build",
+    "build": "nx run-many --target build --parallel 8 --exclude nx-dev",
     "graph": "nx run-many --target=build --graph",
     "dev:all": "yarn dev:storybook & yarn dev:packages",
     "dev:storybook": "nx storybook @custom-design-system/storybook",

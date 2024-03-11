@@ -1,3 +1,4 @@
+import React from "react";
 import "@custom-design-system/react-components-accordion/style.css";
 import {
   Accordion,
@@ -5,7 +6,6 @@ import {
   AccordionButton,
   AccordionPanel,
 } from "@custom-design-system/react-components-accordion";
-import React from "react";
 
 import "@custom-design-system/react-components-layout/style.css";
 import { Text, Heading } from "@custom-design-system/react-components-layout";

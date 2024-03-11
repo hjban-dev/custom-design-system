@@ -17,10 +17,10 @@ export default {
 export const InputStory = {
   render: () => (
     <>
-      <Input placeholder="dd" size={"xs"} />
-      <Input placeholder="dd" size={"sm"} />
-      <Input placeholder="dd" size={"md"} />
-      <Input placeholder="dd" size={"lg"} />
+      <Input placeholder="dd" size="xs" />
+      <Input placeholder="dd" size="sm" />
+      <Input placeholder="dd" size="md" />
+      <Input placeholder="dd" size="lg" />
     </>
   ),
 };
@@ -54,4 +54,15 @@ export const AddonInputGroupStoryWithSizes = {
       </InputGroup>
     </>
   ),
+};
+
+export const InputVariantFilledStory = {
+  render: () => <Input variant="filled" placeholder="dd" />,
+};
+
+export const InputFocusVisibleState = {
+  render: () => <Input />,
+  parameters: {
+    pseudo: { focusVisible: true },
+  },
 };

@@ -9,6 +9,7 @@
     "@custom-design-system/react-components-select": "workspace:^",
     "@custom-design-system/react-components-toast": "workspace:^",
     "@custom-design-system/themes": "workspace:^",
+    "@storybook/addon-a11y": "^7.6.17",
     "@storybook/addon-essentials": "^7.6.12",
     "@storybook/addon-interactions": "^7.6.12",
     "@storybook/addon-links": "^7.6.12",
@@ -23,22 +24,26 @@
     "@testing-library/user-event": "^14.5.1",
     "@vitejs/plugin-react": "^4.2.1",
     "@vitest/ui": "^1.3.1",
+    "chromatic": "^11.0.7",
     "happy-dom": "^13.5.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "storybook": "^7.6.12",
+    "storybook-addon-pseudo-states": "^2.2.1",
     "storybook-addon-root-attributes": "^2.1.3",
     "vite": "^5.0.12",
     "vitest": "^1.3.1"
   },
   "scripts": {
     "storybook": "storybook dev -p 6006",
-    "build": "storybook build",
+    "build-storybook": "storybook build",
     "test": "vitest",
-    "test:ui": "vitest --ui"
+    "test:ui": "vitest --ui",
+    "chromatic": "npx chromatic --project-token=chpt_288f88a0c0bb77a"
   },
   "dependencies": {
     "@custom-design-system/react-hooks-button": "workspace:^"
-  }
+  },
+  "version": ""
 }
